@@ -7,8 +7,6 @@ class CreateTreatments < ActiveRecord::Migration[5.2]
       t.integer :price
       t.integer :genre_id
       t.boolean :is_active, default: true
-      t.datetime :created_at, default: -> { 'NOW()' }
-      t.datetime :updated_at, default: -> { 'NOW()' }
 
       t.timestamps
     end

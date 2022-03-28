@@ -11,6 +11,7 @@ class Admin::GenresController < ApplicationController
     redirect_to admin_genres_path(@genre.id)
     # if @genre.save
     #   flash[:notice] = "施術ジャンルを登録しました。"
+    
     # redirect_to admin_genres_path(@genre.id)
     # else
     #   @genres = Genre.all

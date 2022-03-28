@@ -1,5 +1,7 @@
 
 
+
+
 <!--商品一覧画面-->
 <div class="container">
   <div class="row mt-5 ">
@@ -42,7 +44,7 @@
           <% end %>
         </td>
         <td>
-          <%= converting_to_jpy(treatment.price) %>
+          <%= treatment.price %>
         </td>
         <td>
           <%= treatment.genre.name %>
@@ -62,5 +64,3 @@
 </div>
 </div>
 </div>
-
-<%#= paginate @treatments %>
