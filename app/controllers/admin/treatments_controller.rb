@@ -14,7 +14,7 @@ class Admin::TreatmentsController < ApplicationController
      @treatment = Treatment.new(treatment_params)
      @treatment.save
     redirect_to admin_treatments_path(@treatment.id)
-    # if @item.save
+    # if @treatment.save
     #   flash[:notice] = "genre was successfully created."
     # redirect_to admin_items_path(@item.id)
     # else
